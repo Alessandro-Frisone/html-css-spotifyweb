@@ -91,17 +91,16 @@ body{
 }
 .playlist ul{
     line-height: 2.2em;
-    color: gray;
     list-style: none;
 }
 .crea-playlist{
     display: flex;
     align-items: center;
-    color: grey;
     margin-bottom: 10px;
 }
 .header-top{
     height: calc(100% - 50px);
+    color: grey;
 }
 .header-bottom hr{
     display: none;
