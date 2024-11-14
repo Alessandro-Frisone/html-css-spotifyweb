@@ -20,7 +20,9 @@
 img{
     width: 100%;
 }
-
+.contenitore{
+    padding: 0 15px;
+}
 
 /* ------------------
     TYPOGRAPHY
@@ -133,6 +135,12 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     font-size: 12px;
+}
+.contenitore h1{
+    color: white;
+}
+.recenti{
+    display: flex;
 }
 
 
