@@ -51,6 +51,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+.btn-upgrade{
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 32px;
+    margin-top: 36px;
+    margin-right: 5px;
+}
 
 /* ------------------
     HEADER
@@ -112,7 +120,11 @@ main{
     width: 100%;
     height: calc(100vh - 90px);
 }
-
+.banner{
+    background-color: #121319;
+    height: 95px;
+    text-align: right;
+}
 
 
 /* ------------------
