@@ -144,6 +144,7 @@ main{
 }
 .playlist-music{
     margin-right: 10px;
+    width: 100%;
 }
 .playlist-music h3{
     color: white;
@@ -153,9 +154,6 @@ main{
 .playlist-music p{
     color: gray;
     text-align: center;
-}
-.playlist-img{
-    width: 100%;
 }
 
 
