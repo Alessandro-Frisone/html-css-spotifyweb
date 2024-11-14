@@ -1,0 +1,55 @@
+/* ------------------
+    RESET
+------------------ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------
+    GENERAL
+------------------ */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ------------------
+    TYPOGRAPHY
+------------------ */
+
+
+/*----------------
+    BUTTONS
+------------------*/
+.btn {
+    background-color: transparent;
+    font-family: inherit;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+/* ------------------
+    HEADER
+------------------ */
+
+
+/* ------------------
+    MAIN
+------------------ */
+
+
+/* ------------------
+    FOOTER
+------------------ */
+
+
+/* ------------------
+    LAYOUT
+------------------ */
