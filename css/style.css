@@ -43,6 +43,9 @@ body{
     width: 35px;
 	height: 35px;
     background-color: lightgray;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-right: 7px;
     color: black;
     display: flex;
     align-items: center;
@@ -58,12 +61,10 @@ body{
     width: 230px;
     height: calc(100vh - 90px);
     padding: 15px;
+    font-size: 12px;
 }
 .side-bar img{
     margin-bottom: 5px;
-}
-.header-bottom{
-    margin-top: 455px;
 }
 .original-logo{
     width: 100%;
@@ -84,7 +85,23 @@ body{
     color: gray;
     list-style: none;
 }
-
+.crea-playlist{
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-bottom: 10px;
+}
+.header-top{
+    height: calc(100% - 50px);
+}
+.header-bottom hr{
+    display: none;
+}
+.info-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: top;
+}
 
 /* ------------------
     MAIN
@@ -129,11 +146,20 @@ footer{
     .info-img{
         max-width: 20%;
         display: block;
+        margin-right: 10px;
     }
     .testo{
         display: block;
     }
     .playlist{
         display: block;
+    }
+    .header-top{
+        height: calc(100% - 75px);
+    }
+    .header-bottom hr{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
