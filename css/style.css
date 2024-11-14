@@ -17,12 +17,17 @@
     margin-right: auto;
     display: flex;
 }
+img{
+    width: 100%;
+}
 
 
 /* ------------------
     TYPOGRAPHY
 ------------------ */
-
+body{
+    font-family: "Montserrat", serif;
+}
 
 /*----------------
     BUTTONS
@@ -34,16 +39,52 @@
     padding: 6px 12px;
     cursor: pointer;
 }
-
+.btn-add{
+    width: 35px;
+	height: 35px;
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ------------------
     HEADER
 ------------------ */
 .side-bar{
     background-color: black;
+    color: white;
     width: 230px;
-    height: calc(100vh - 90px); 
+    height: calc(100vh - 90px);
+    padding: 15px;
 }
+.side-bar img{
+    margin-bottom: 5px;
+}
+.header-bottom{
+    margin-top: 455px;
+}
+.original-logo{
+    width: 100%;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.testo{
+    display: none;
+}
+.playlist{
+    display: none;
+    margin-top: 20px;
+}
+.playlist ul{
+    line-height: 2.2em;
+    color: gray;
+    list-style: none;
+}
+
 
 /* ------------------
     MAIN
@@ -55,6 +96,8 @@ main{
     height: calc(100vh - 90px);
 }
 
+
+
 /* ------------------
     FOOTER
 ------------------ */
@@ -63,11 +106,34 @@ footer{
     background-color: #2c2c2c;
 }
 
+
+
+
 /* ------------------
     LAYOUT
 ------------------ */
 @media screen and (max-width: 500px){
     .side-bar{
         width: 50px;
+    }
+    .original-logo{
+        display: none;
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 500px){
+    .img1{
+        display: none;
+    }
+    .info-img{
+        max-width: 20%;
+        display: block;
+    }
+    .testo{
+        display: block;
+    }
+    .playlist{
+        display: block;
     }
 }
