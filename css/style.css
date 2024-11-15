@@ -188,7 +188,7 @@ main{
 }
 .playlist-created{
     padding: 5px;
-    width: 100%;
+    width: calc(100% / 2);
 }
 .playlist-created h3{
     color: white;
@@ -249,23 +249,24 @@ footer{
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .playlist-music{ 
+    .playlist-music, .playlist-created{ 
         width: calc(100% / 4)
     }
     .profile-icon{
         margin-right: 5px;
     }
 
+
 }
 
 @media screen and (max-width: 700px){
-    .playlist-music{ 
+    .playlist-music, .playlist-created{ 
         width: calc(100% / 2)
     }
 }
 
 @media screen and (min-width: 900px){
-    .playlist-music{ 
+    .playlist-music, .playlist-created{ 
         width: calc(100% / 6)
     }
 }
