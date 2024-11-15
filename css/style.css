@@ -148,14 +148,14 @@ main{
 }
 .contenitore h1{
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .recenti{
     display: flex;
     flex-wrap: wrap;
 }
 .playlist-music{
-    padding: 8px;
+    padding: 5px;
     width: calc(100% / 2);
 }
 .playlist-music h3{
@@ -193,6 +193,7 @@ footer{
     }
     
 }
+
 @media screen and (min-width: 501px){
     .img1{
         display: none;
@@ -219,5 +220,17 @@ footer{
 
     .playlist-music{ 
         width: calc(100% / 4)
+    }
+}
+
+@media screen and (max-width: 700px){
+    .playlist-music{ 
+        width: calc(100% / 2)
+    }
+}
+
+@media screen and (min-width: 900px){
+    .playlist-music{ 
+        width: calc(100% / 6)
     }
 }
