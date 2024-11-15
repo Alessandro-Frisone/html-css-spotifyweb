@@ -253,7 +253,11 @@ footer{
 .fa-folder{
     margin-left: 10px;
 }
-
+.right-footer{
+    display: flex;
+    color: white;
+    gap: 20px
+}
 
 /* ------------------
     LAYOUT
