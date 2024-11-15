@@ -136,7 +136,7 @@ main{
     height: 85px;
     text-align: right;
 }
-.categorie{
+.categories ul{
     padding: 15px 25px;
     color: lightgray;
     display: flex;
@@ -144,6 +144,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     font-size: 12px;
+    list-style: none;
 }
 .contenitore h1{
     color: white;
@@ -151,10 +152,11 @@ main{
 }
 .recenti{
     display: flex;
+    flex-wrap: wrap;
 }
 .playlist-music{
-    margin-right: 10px;
-    width: 100%;
+    padding: 8px;
+    width: calc(100% / 2);
 }
 .playlist-music h3{
     color: white;
@@ -213,5 +215,9 @@ footer{
         display: block;
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    .playlist-music{ 
+        width: calc(100% / 4)
     }
 }
