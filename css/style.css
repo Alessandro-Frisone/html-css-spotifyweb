@@ -83,8 +83,9 @@ body{
 .logo{
     position: sticky;
     left: 0;
-    bottom: 0;
+    top: 0;
     background-color: black;
+    padding: 10px 0;
 }
 .info{
     display: flex;
