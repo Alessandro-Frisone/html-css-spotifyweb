@@ -222,8 +222,37 @@ footer{
     height: 90px;
     background-color: #2c2c2c;
 }
-
-
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    height: 100%;
+}
+.left-footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.footer-img{
+    width: auto;
+    height: 100%;
+}
+.cont-foot{
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.cont-foot p{
+    color: gray;
+}
+.footer-btn{
+    color: gray;
+    margin-left: 35px;
+}
+.fa-folder{
+    margin-left: 10px;
+}
 
 
 /* ------------------
