@@ -119,7 +119,6 @@ body{
 .info-bottom{
     display: flex;
     align-items: center;
-    justify-content: top;
 }
 .profile-icon{
     background-color: gray;
@@ -248,15 +247,32 @@ footer{
 }
 .footer-btn{
     color: gray;
-    margin-left: 35px;
-}
-.fa-folder{
-    margin-left: 10px;
 }
 .right-footer{
     display: flex;
     color: white;
     gap: 20px
+}
+.central-footer-btn{
+    display: flex;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+.fa-circle-play{
+    font-size: 28px;
+}
+.time-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.linea{
+    width: 100%;
+    color: white;
 }
 
 /* ------------------
@@ -302,8 +318,13 @@ footer{
     .profile-icon{
         margin-right: 5px;
     }
-
-
+    .footer-btn{
+        display: flex;
+        margin-left: 35px;
+    }
+    .fa-folder{
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 700px){
