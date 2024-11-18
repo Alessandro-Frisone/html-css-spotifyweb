@@ -281,7 +281,7 @@ main{
 footer{
     height: 90px;
     background-color: #2c2c2c;
-    font-size: 14px;
+    font-size: 10px;
 }
 .footer-box{
     display: flex;
@@ -294,6 +294,7 @@ footer{
     display: flex;
     align-items: center;
     height: 100%;
+    width: 135px;
 }
 .footer-img{
     width: auto;
@@ -313,16 +314,24 @@ footer{
 .right-footer{
     display: flex;
     color: white;
-    gap: 20px
+    gap: 10px;
+    width: 135px;
+    align-items: center;
+}
+.central-footer{
+    justify-content: center;
 }
 .central-footer-btn{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     color: white;
     align-items: center;
 }
 .central-footer-btn .fa-circle-play{
     font-size: 28px;
+}
+.central-footer{
+    width: 140px;
 }
 .time-line{
     display: flex;
@@ -332,6 +341,7 @@ footer{
     margin-top: 10px;
     font-size: 12px;
     display: flex;
+    width: 100%;
 }
 .linea{
     background-color: #5a5a5a;
@@ -345,6 +355,20 @@ footer{
     height: 100%;
     background-color: white;
 }
+.volume-line{
+    background-color: #5a5a5a;
+    height: 4px;
+    width: 100%;
+}
+.volume-line-inner{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+
+
+
+
 
 /* ------------------
     LAYOUT
@@ -399,6 +423,8 @@ footer{
     .fa-folder{
         margin-left: 10px;
     }
+    
+
 }
 
 @media screen and (max-width: 700px){
@@ -410,5 +436,24 @@ footer{
 @media screen and (min-width: 900px){
     .playlist-music, .playlist-created{ 
         width: calc(100% / 6)
+    }
+    
+}
+
+@media screen and (min-width: 650px){
+    .left-footer{
+        font-size: 14px;
+        width: 250px;
+    }
+    .central-footer{
+        font-size: 14px;
+        width: 300px;
+    }
+    .central-footer-btn{
+        justify-content: center;
+    }
+    .right-footer{
+        font-size: 14px;
+        width: 210px;
     }
 }
