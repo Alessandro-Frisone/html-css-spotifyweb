@@ -359,23 +359,27 @@ footer{
     width: 100%;
     margin-left: 7px;
     margin-right: 7px;
+    border-radius: 2px;
 }
 .linea-inner{
     width: 30%;
     height: 100%;
     background-color: white;
     position: relative;
+    border-radius: 2px;
 }
 .volume-line{
     background-color: #5a5a5a;
     height: 4px;
     width: 100%;
+    border-radius: 2px;
 }
 .volume-line-inner{
     width: 70%;
     height: 100%;
     background-color: white;
     position: relative;
+    border-radius: 2px;
 }
 .fa-heart:hover{
     color: white;
