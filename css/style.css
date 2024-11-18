@@ -159,6 +159,9 @@ body{
 .btn-add:hover{
     background-color: white;
 }
+.home{
+    border-left: 3px solid limegreen;
+}
 
 
 /* ------------------
