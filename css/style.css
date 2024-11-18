@@ -134,7 +134,6 @@ body{
 }
 .header-top .info:hover{
     color: white;
-    border-left: 3px solid limegreen;
     cursor: pointer;
 }
 .hover:hover{
@@ -365,7 +364,22 @@ footer{
     height: 100%;
     background-color: white;
 }
-
+.fa-heart:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-folder:hover{
+    color: white;
+    cursor: pointer;
+}
+.cont-foot p:hover{
+    color: white;
+    cursor: pointer;
+}
+.play-btn:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
 
 
 
