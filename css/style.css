@@ -248,6 +248,29 @@ main{
 .contenitore3 img{
     border-radius: 100%;
 }
+.album-cover{
+    position: relative;
+}
+.playlist-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 70px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playlist-overlay:hover{
+    opacity: 1;
+}
+.circle{
+    border-radius: 100%;
+}
 
 
 /* ------------------
