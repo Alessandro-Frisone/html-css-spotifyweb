@@ -43,7 +43,7 @@ body{
 .btn-add{
     width: 35px;
 	height: 35px;
-    background-color: lightgray;
+    background-color: gray;
     font-size: 26px;
     margin-top: 10px;
     margin-right: 7px;
@@ -152,6 +152,14 @@ body{
     cursor: pointer;
     font-size: 15px;
 }
+.crea-playlist-btn:hover{
+    color: white;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: white;
+}
+
 
 /* ------------------
     MAIN
@@ -272,7 +280,10 @@ main{
 .circle{
     border-radius: 100%;
 }
-
+.crea-playlist-btn{
+    display: flex;
+    align-items: center;
+}
 
 /* ------------------
     FOOTER
