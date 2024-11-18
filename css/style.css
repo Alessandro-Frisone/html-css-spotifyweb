@@ -417,6 +417,7 @@ footer{
 .cont-foot p:hover{
     color: white;
     cursor: pointer;
+    text-decoration: underline;
 }
 .play-btn:hover{
     cursor: pointer;
