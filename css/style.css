@@ -457,3 +457,21 @@ footer{
         width: 210px;
     }
 }
+
+@media screen and (min-width: 1200px){
+    .left-footer{
+        font-size: 14px;
+        width: 350px;
+    }
+    .central-footer{
+        font-size: 14px;
+        width: 450px;
+    }
+    .central-footer-btn{
+        justify-content: center;
+    }
+    .right-footer{
+        font-size: 14px;
+        width: 310px;
+    }
+}
