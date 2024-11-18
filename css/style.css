@@ -161,6 +161,10 @@ main{
     font-size: 12px;
     list-style: none;
 }
+.cat-info{
+    color: lightgray;
+    text-decoration: none;
+}
 .hover-link{
     height: 2px;
     width: 40px;
