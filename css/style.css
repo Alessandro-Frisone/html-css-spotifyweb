@@ -115,7 +115,7 @@ ul.home li:first-of-type img{
     display: flex;
     align-items: center;
 }
-.testo{
+.text{
     display: none;
 }
 .playlist{
@@ -229,7 +229,7 @@ main{
     color: white;
     margin-bottom: 15px;
 }
-.recenti{
+.recent{
     display: flex;
     flex-wrap: wrap;
 }
@@ -262,11 +262,7 @@ main{
     text-align: center;
     padding: 10px 0;
 }
-.contenitore2{
-    display: flex;
-    width: 100%;
-}
-.contenitore3{
+.container2{
     display: flex;
     width: 100%;
 }
@@ -277,7 +273,7 @@ main{
     color: gray;
     margin-bottom: 15px;
 }
-.contenitore3 img{
+.border-img{
     border-radius: 100%;
 }
 .album-cover{
@@ -378,7 +374,7 @@ footer{
     display: flex;
     width: 100%;
 }
-.linea{
+.line{
     background-color: #5a5a5a;
     height: 4px;
     width: 100%;
@@ -386,7 +382,7 @@ footer{
     margin-right: 7px;
     border-radius: 2px;
 }
-.linea-inner{
+.line-inner{
     width: 30%;
     height: 100%;
     background-color: white;
@@ -436,13 +432,13 @@ footer{
     top: -5px;
     display: none;
 }
-.linea:hover .joystick{
+.line:hover .joystick{
     display: block;
 }
-.linea-inner:hover{
+.line-inner:hover{
     background-color: limegreen;
 }
-.linea:hover .linea-inner{
+.line:hover .linea-inner{
     background-color: limegreen;
 }
 .volume-line:hover .joystick{
@@ -480,7 +476,7 @@ footer{
         display: block;
         margin-right: 7px;
     }
-    .testo{
+    .text{
         display: block;
     }
     .info-bottom .profile-icon{
