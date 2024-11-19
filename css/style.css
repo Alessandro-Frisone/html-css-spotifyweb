@@ -438,7 +438,7 @@ footer{
 .line-inner:hover{
     background-color: limegreen;
 }
-.line:hover .linea-inner{
+.line:hover .line-inner{
     background-color: limegreen;
 }
 .volume-line:hover .joystick{
